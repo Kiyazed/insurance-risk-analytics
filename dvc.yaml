@@ -1,0 +1,10 @@
+stages:
+  preprocess:
+    cmd: python scripts/dvc_pipeline.py
+    deps:
+      - scripts/dvc_pipeline.py
+      - src/data_loader.py
+      - src/preprocessing.py
+      - data/raw/insurance_data.csv
+    outs:
+      - data/processed/insurance_cleaned.csv
