@@ -4,7 +4,10 @@ matplotlib
 seaborn
 scipy
 scikit-learn
+xgboost
+shap
 jupyter
 dvc
+flake8
 pytest
 pyyaml
